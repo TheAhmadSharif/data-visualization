@@ -1,0 +1,105 @@
+body {
+			width: 100%;
+			overflow-x: hidden;
+			color: #FFF;
+			background: #333;
+			font-family: arial;
+		}
+		
+		p {
+			color: #FFF;
+			font-size: 24px;
+		}
+		* {
+			border: 0;
+			outline: 0;
+		}
+		
+		.container {
+			width: 767px;
+			background: #EEE;
+			margin-top: 30px;
+			padding: 10px;
+			margin: auto;
+			color: #333;
+			min-height: 300px;
+			margin-bottom: 60px;
+			min-height: 680px;
+			margin-top: 40px;
+		}
+		
+		.chart div {
+		  font: 10px sans-serif;
+		  background-color: steelblue;
+		  text-align: right;
+		  padding: 10px;
+		  color: white;
+		  border: 0;
+		  outline: 0;
+		  display: inline-block;
+		  margin-right: 5px;
+		  vertical-align: bottom;
+		}
+		.chart {
+			float: left;
+		  background: transparent;
+		  display: block;
+		  width: 100%;
+
+		}
+rect {
+	display: inline-block;
+	position: relative;
+	z-index: 12;
+	margin-right: 5px;
+	font-size: 16px;
+	font-family: arial;
+	fill: #1E824C !important;
+
+	fill: none;
+  pointer-events: all;
+}
+rect:hover {
+	cursor: pointer;
+	fill: #f39c12 !important;
+}
+
+.bar-holder {
+    margin-left: 0;
+    float: left;
+    width: 100%;
+    display: block;
+    clear: both;
+}
+
+.main-nav {
+	background: #E6E6E6;
+	padding: 10px;
+	border-radius: 3px;
+	margin-bottom: 60px;
+
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+  ul > li {
+  	display: inline-block;
+  	list-style: none;
+  	margin-right: 10px;	
+
+  	a {
+  		color: #FFF;
+  		background: #5CB85C;
+  		text-decoration: none;
+  		padding: 4px 10px;
+  		border-radius: 4px;
+
+  		&:hover {
+  			background: #f39c12;
+  		}
+  	}
+  }
+}
+.orange {
+	background: orange !important; 
+}

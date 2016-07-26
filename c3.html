@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Driven Documents</title>
+	<link rel="stylesheet" href="assets/bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/style.css">
+	<link rel="stylesheet" href="assets/c3/c3.css">
+
+	<script src="assets/c3/c3.js"></script>
+	<script src="assets/c3/d3.js"></script>
+</head>
+<body>
+	<div class="container">
+		<nav class="main-nav">
+			<ul>
+				<li><a href="index.html">Home (D3)</a></li>
+				<li><a class="orange" href="c3.html">C3 Library</a></li>
+			</ul>
+		</nav>
+
+		<h1>Data Visualization <span class="label label-danger">C3</span></h1>
+
+		<div id="chart"></div>
+
+		
+	</div>  <!-- End -->
+<script src="assets/live.js"></script>
+
+<script>
+
+var chart = c3.generate({
+    data: {
+        columns: [
+            ['data1', 30, 200, 100, 400, 150, 250],
+            ['data2', 130, 100, 140, 200, 150, 50]
+        ],
+        type: 'spline'
+    }
+});
+
+</script>
+</body>
+</html>
+
